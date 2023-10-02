@@ -1,0 +1,59 @@
+.start-section h1 {
+  margin-top: 15px;
+}
+.start-section img {
+  border-radius: 15px;
+}
+.start-section h5 {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.infos-section ul li {
+  /* border: 1px solid green; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.infos-section span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-section {
+  display: flex;
+  justify-items: center;
+}
+.instructions {
+  /* border: 1px solid red; */
+  width: fit-content;
+}
+.instructions h1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.instructions p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.start-btn {
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 10px 40px 10px 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  color: aliceblue;
+  background-color: #8692a6;
+  position: relative;
+  margin-left: 85%;
+}
+.start-btn:hover {
+  /* color: black; */
+  background-color: #637086;
+}

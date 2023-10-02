@@ -1,0 +1,51 @@
+.select-topic {
+  margin-top: 15px;
+}
+.select-topic h1 {
+  font-size: 25px;
+}
+.select-topic h5 {
+  margin-top: 7px;
+  font-size: 15px;
+  font-weight: 100;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 10px;
+}
+.categories img {
+  border-radius: 50px;
+  cursor: pointer;
+}
+.category {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.category h6 {
+  color: aliceblue;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+  font-weight: 100000;
+  font-size: 13px;
+}
+.more-categories {
+  position: relative;
+  margin-left: 85%;
+  /* right: 25px; */
+  /* bottom: 10px; */
+  border: none;
+  outline: none;
+  color: aliceblue;
+  background-color: #8692a6;
+  padding: 10px 40px 10px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.more-categories:hover {
+  color: black;
+}
